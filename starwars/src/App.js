@@ -3,7 +3,7 @@ import './App.css';
 import CharList from './components/CharList';
 
 
-class App extends Component {
+class App extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -71,7 +71,7 @@ class App extends Component {
   render() {
     return (
       <ul>
-      <CharList CharListArray={this.state.Characters} />
+      <CharList starwarsCharsArray={this.state.Characters} />
       </ul>
      
     );
