@@ -10,14 +10,18 @@
 ## Questions
 
 1.  What is React JS and what problems does it try and solve?
-
+ReactJS is a library for building user interfaces with JSX. 
+The DOM can be slow in rendering pages with multiple changes. ReactJS solves this problem by way of the virtual DOM which makes necessary changes to only the components that must be updated. 
 1.  What does it mean to _think_ in react?
+Thinking in React indicates a process of imagining the app as it's built. 
 
 1.  Briefly describe some of the differences between a Class/Stateful component and a Functional/Presentational component.
 
 1.  Describe state.
+State is an ojbect that holds information. State can be updated. 
 
 1.  Describe props.
+Props is the method used to move state around. Once state has been moved to props it cannot be changed. Through import and export, render, and return, props is presented on a browser. 
 
 ## Project
 
