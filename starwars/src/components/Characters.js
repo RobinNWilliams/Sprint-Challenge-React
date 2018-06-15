@@ -1,9 +1,9 @@
 import React from "react";
-import './Starwars.css';
+import './App.css';
 import CharList from "./components.CharList"
 
 const Characters = props => {
-    return <li>{props.CharList}</li>
+    return <li>{props.charName}</li>
 }
 
 export default Characters;
