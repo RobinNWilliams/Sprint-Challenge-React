@@ -9,38 +9,38 @@ class App extends React.Component {
     this.state = {
       starwarsChars: [
 
-       { name:Chewbacca,
-         species: Wookiee,
-         id: rebel
+       { name:'Chewbacca',
+         species: 'Wookiee',
+         id: 'rebel'
 
        },
 
-      { name: Yoda, 
-        species: humanoid,
-        id: rebel
+      { name: 'Yoda', 
+        species: 'humanoid',
+        id: 'rebel'
       },
 
-      { name:Obi-Wan, 
-        species: human,
-        id: rebel
-      },
-
-      {
-        name:Jabba,
-        species: hut,
-        id: empire
+      { name:'Obi-Wan', 
+        species: 'human',
+        id: 'rebel'
       },
 
       {
-        name: Palpatine,
-        species: human,
-        id: empire
+        name:'Jabba',
+        species: 'hut',
+        id: 'empire'
+      },
+
+      {
+        name: 'Palpatine',
+        species: 'human',
+        id: 'empire'
       },
 
      {  
-        name: Anakin,
-        species: human,
-        id: empire
+        name: 'Anakin',
+        species: 'human',
+        id: 'empire'
      }
 
   ],
