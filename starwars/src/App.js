@@ -1,11 +1,49 @@
 import React, { Component } from 'react';
 import './App.css';
+import CharList from './components/CharList';
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [
+
+       { name:Chewbacca,
+         species: Wookiee,
+         id: rebel
+
+       },
+
+      { name: Yoda, 
+        species: humanoid,
+        id: rebel
+      },
+
+      { name:Obi-Wan, 
+        species: human,
+        id: rebel
+      },
+
+      {
+        name:Jabba,
+        species: hut,
+        id: empire
+      },
+
+      {
+        name: Palpatine,
+        species: human,
+        id: empire
+      },
+
+     {  
+        name: Anakin,
+        species: human,
+        id: empire
+     }
+
+  ],
+  StarWars: ""
     };
   }
 
@@ -34,6 +72,8 @@ class App extends Component {
       <div className="App">
         <h1 className="Header">React Wars</h1>
       </div>
+    
+    
     );
   }
 }
